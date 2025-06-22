@@ -2,5 +2,5 @@
 mkdir drupal && cd drupal
 ddev config --project-type=drupal11 --docroot=web
 ddev start
-ddev composer create drupal/cms
+ddev composer create-project drupal/cms
 ddev launch
